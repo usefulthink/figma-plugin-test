@@ -1,0 +1,10 @@
+{
+  "name": "martins-test-plugin",
+  "id": "1048682752302376343",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": [
+    "figma"
+  ],
+  "ui": "ui.html"
+}

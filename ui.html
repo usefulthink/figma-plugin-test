@@ -1,0 +1,9 @@
+<button>RUN REPLACEMENT</button>
+<script>
+  const button = document.querySelector("button");
+
+  button.addEventListener("click", () => {
+    console.log({ parent });
+    parent.postMessage({ pluginMessage: { type: "run-replacements" } }, "*");
+  });
+</script>

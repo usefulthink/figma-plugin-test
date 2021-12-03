@@ -1,0 +1,18 @@
+{
+  "name": "martins-test-plugin",
+  "version": "1.0.0",
+  "description": "Your Figma plugin",
+  "main": "code.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "prettier": "^2.5.0",
+    "typescript": "^4.5.2"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.39.1"
+  }
+}
